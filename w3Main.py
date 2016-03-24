@@ -1,5 +1,4 @@
 ﻿#섭씨를 화씨로, 화씨를 섭씨로 변환하기
-## 섭씨를 화씨로, 화씨를 섭씨로 변환하기
 temp=input("User input temprtature : ")
 sel=raw_input("Fahrenheit or Celsius(F or C) : ")
 print "%.1f" %temp, sel
