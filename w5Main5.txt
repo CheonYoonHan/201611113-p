@@ -1,0 +1,17 @@
+@startuml
+start
+:get user input grade; 
+note right: full mark is 100
+if (90<=grade<=100) then (A)
+  :print A;
+elseif (80<=grade<90) then (B)
+  :print B;
+elseif (70<=grade<80) then (C)
+  :print C;
+elseif (60<=grade<70) then (D)
+  :print D;
+else (F)
+  :print F;
+endif
+stop
+@enduml
