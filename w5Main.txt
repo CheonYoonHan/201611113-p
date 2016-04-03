@@ -1,0 +1,39 @@
+@startuml
+
+title Kawi, Bawi, Bo
+
+
+start
+
+:get input userA&B; 
+note right: 'kawi',bawi,'bo'
+if (UserA=kawi)
+  if(user B=bawi)
+    :print 'UserB win';
+  elseif(user B=bo)
+    :print 'UserA win';
+  else
+    :print 'Draw';
+  endif
+elseif (UserA=bawi)
+    if(user B=kawi)
+        :print 'UserA win';
+    elseif(user B=bo)
+        :print 'UserB win';
+    else
+        :print 'Draw';
+    endif
+elseif (UserA=bo)
+  if(user B=kawi)
+    :print 'UserA win';
+  elseif(user B=bawi)
+    :print 'UserB win';
+  else
+    :print 'Draw';
+  endif
+endif
+
+
+stop
+
+@enduml
