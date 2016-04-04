@@ -9,6 +9,8 @@ def kawibawibo():
             print 'UserA Win'
         elif userA<userB:
             print 'UserB Win'
-    else:
+    elif userA==userB:
         print 'draw'
+    else:
+        print 'input kawi, bawi, bo again'
 kawibawibo()
