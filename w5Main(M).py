@@ -11,6 +11,4 @@ def kawibawibo():
             print 'UserB Win'
     elif userA==userB:
         print 'draw'
-    else:
-        print 'input kawi, bawi, bo again'
 kawibawibo()
