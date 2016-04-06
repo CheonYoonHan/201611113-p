@@ -1,0 +1,13 @@
+@startuml
+start
+:i input from 1; 
+repeat
+if(i=multiple of 3 or 5)then(Yes)
+:sum=sum+i;
+else(No)
+:Pass;
+endif
+repeat while(i<1000)
+:print sum;
+stop
+@enduml
