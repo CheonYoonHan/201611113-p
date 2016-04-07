@@ -1,0 +1,10 @@
+title Calculate Leap Year
+Start
+:Get your input year;
+if(Year can be divided by 4 and can't be diveied by 100
+Or, Year can be divided by 4 and 400)then(Yes)
+    :print "User inputing year is Leap Year";
+else(No)
+    :print "User inputing year is not Leap Year";
+endif
+stop
