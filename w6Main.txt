@@ -1,0 +1,50 @@
+title Hige & Low Game
+start
+:print "Think Your Number";
+:print "Game Start;
+if (Your number is higher than 5?) then(Yes)
+    if (Your number is lower than 7?)then(Yes)
+        :print "Your number is 6!!!";
+        stop
+    else (No)
+    endif
+        if (your number is 7?)then(Yes)
+            :print "Your number is 7!!;
+            stop
+        else (No)
+        endif
+            if (Your number is lower than 9)then(Yes)
+                :print "Your number is 8!!!;
+                stop
+            else (No)
+            endif
+                if (Your number is 9?)then(Yes)
+                    :print "Your number is 9!!!";
+                    stop
+                else (No)
+                    :print "Your number is 10!!!";
+                    stop
+                endif
+else (No)
+    if (Your number is 5?)then(Yes)
+        :print "Your number is 5!!!";
+        stop
+    else (No)
+    endif
+        if (Your number is higher than 3?)then(Yes)
+            :print "Your number is 4!!!";
+            stop
+        else (No)
+        endif
+            if (Your number is 3?)then(Yes)
+                :print "Your number is 3!!!";
+                stop
+            else (No)
+            endif
+                if (Your number is higher than 1?)then(Yes)
+                    :print "Your number is 1!!!";
+                    stop
+                else (No)
+                    :print "Your number is 2!!!";
+                    stop
+endif
