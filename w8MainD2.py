@@ -10,4 +10,7 @@ def drawSquareAt(size,pos):
         t1.right(90)
         t1.fd(size)
     print tracks
-drawSquareAt(100,(0,0))
+def lab8():
+    drawSquareAt(100,(0,0))
+def main():
+    lab7()
