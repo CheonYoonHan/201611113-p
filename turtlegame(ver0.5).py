@@ -1,7 +1,3 @@
-﻿#거북이 만든다.
-import turtle
-wn=turtle.Screen()
-t1=turtle.Turtle()
 #거북이 만든다.
 import turtle
 wn=turtle.Screen()
